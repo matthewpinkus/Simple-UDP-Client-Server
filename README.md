@@ -11,6 +11,12 @@ Year 2 Semester 2 Distributed Systems Programming Task 1
             ./server max_iterations
                   (max_iterations = how many times the server will wait for requests)
             
+            Using sento() and recvfrom():
             ./client client_message
+                  (client_message is whatever you want to send to the server,
+                      max length set to 48)
+                      
+            Using read() and write():     
+            ./clientRW client_message
                   (client_message is whatever you want to send to the server,
                       max length set to 48)
